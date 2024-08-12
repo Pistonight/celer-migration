@@ -1,0 +1,90 @@
+KorokForest:
+- Bomb tree + boar:
+    notes: 1 Wood. get raw meat for scw
+    var-change:
+      Wood: 1
+- .dir(E) Backflip super
+- _Shrine::BoshKala
+- .dir(N>) TS
+- _Shrine::WahgoKatta
+- .dir(<E) Turn
+- _Shrine::HilaRao
+- .dir(N.) Turn to fairy:
+    coord: [950,500.1411246295402]
+- .dir(N)
+- _Shrine::KayaWan
+
+- _Cook<3 Speed + H/E>
+- BLSS to shrine:
+    coord: [917,150.2713926522165]
+- _Shrine::DakaTuss
+- BTB to deer:
+    var-change:
+      IceArrow: -1
+    notes: .v(IceArrow) Ice Arrows left
+- _Shrine::MezzaLo
+- BLSS
+- _Shrine::SohKofi
+
+- BLSS:
+    coord: [2189,-189.96315709896044]
+- _Shrine::ShehRata
+- .dir(<N) Turn
+- _Shrine::MirroShaz
+- .dir(S>>) Slight Turn + .dir(W):
+    coord: [956,-812.210757240352]
+- _Shrine::NamikaOzz
+- +Turn WBs or super
+- _Chest<Dinraal Scale>:
+    coord: [-194,-1220.050312348731]
+- +WB
+- _Chest<5 Bomb Arrows>:
+    coord: [-291,-1130.0087155249767]
+
+- +Go down docks
+- 3 Lizal movement:
+    notes: Head shot first one (near flameblade) and run pass him without getting noticed. Sneakstrike second with EOD from his back and left (to stay out of the third one's view). Head shot 3rd and sneakstrike him with EOD. Grab bow from the last lizalfos.
+    var-change:
+      Arrow: -2
+- _Equipment::Weapon<Flameblade>:
+    coord: [-267,-1133.0158464090491]
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+- _Equipment::Bow<Lizal Bow>:
+    coord: [-236.5,-1187.4031388246876]
+- Ancient Arrow:
+    coord: [-216.22, 114.32, -1180.13]
+- WB to shrine
+- _Shrine::SaasKosah
+
+- +Run up:
+    coord: [-161.5,-1079.8605516003681]
+- _Equipment::Weapon<Boomerang>:
+    var-change:
+      Weapons: 1
+    notes: .v(Weapons)/8 weapons
+- +WB to 3AA:
+    coord: [-62.64, 213.94, -1044.27]
+- +.dir(<<N)
+- _Chest<Naydra Scale>:
+    coord: [-176,-1164.4475087700248]
+- +.dir(N) super + .dir(N>) Turn:
+    coord: [-34,-1636.1101325428908]
+- Keep rusty shield
+- _Shrine::KuhnSidajj
+
+- Backflip to KF:
+   coord: [376,-2203.3217736927]
+- .dir(NW) midair to Oaki
+- Start quest
+- Backflip to shrine:
+    notes: 1 Wood. .v(Wood) wood left
+    var-change:
+      Wood: 1
+- _Shrine::DaagChokah
+- .dir(E>) Turn
+- _Shrine::KeoRuug
+- .dir(E) start quest
+- WB to shrine, throw sword
+- _Shrine::MaagHalan

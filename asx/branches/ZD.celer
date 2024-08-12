@@ -1,0 +1,66 @@
+ZD:
+- _Warp::TechLab::Hateno:
+    line-color: yellow
+- .dir(N>) Turn + .dir(<E) (or ordinal)
+- _Shrine::TahnoOah
+
+# - Cut tree wb:
+#     notes: 1 wood
+#     var-change:
+#       Wood: 1
+- +.dir(N) + .dir(N) midair:
+    coord: [4187,1377.9397836456137]
+- +.dir(N) + .dir(E) + .dir(<E):
+    movements: 
+    - to: [4179,1267.8962060207286]
+    - to: [4049,1275.8993753025388]
+    - to: [3948,1343.9263141979218]
+- _Shrine::JitanSami
+- BLSS to trident:
+    coord: [3229,-602.2594849481793]
+- __use__ CheckSlots
+- _Chest<Ceremonial Trident>
+- +.dir(S) Cardinal
+- 1 Lotus
+- _Shrine::NeezYohma
+- .dir(E):
+   coord: [3087,-458.2024378756023]
+- 1 Lotus
+- _Shrine::DagahKeek
+- Shield Surf SCW
+- .dir(N) + .dir(E) + .dir(W>)
+- Amiibo Activate
+- _Shrine::SatoKoda
+
+- Kill Guardians
+- _Snap::Quest<Skywatcher>
+
+- .dir(E>) Turn
+- 1 Lotus
+- _Shrine::MahEliya:
+    notes: frozen meat activate .v(IceArrow) ice arrows left
+    var-change:
+      IceArrow: -1
+- Cut tree wb:
+    var-change:
+      Wood: 1
+    notes: 1 wood
+- __use__ CheckWoodAndArrows
+- .dir(<E) TS
+- _Shrine::KenaiShakah
+- .dir(NE) to updraft + .dir(NE)
+- _Shrine::KahMael
+- _Tod::Morning:
+    var-change:
+      Wood: -1
+- .dir(SE)
+- _Shrine::KeeDafunia
+- Cryo + Shield Surf SCW
+- .dir(<E) Turn to updraft
+- BLSS:
+    notes: Remove boulder with mag
+- _Shrine::ShaiYota:
+    notes: open a throwing spear chest trigger
+- BLSS + .dir(W>) Turn
+- _Shrine::RuccoMaag
+

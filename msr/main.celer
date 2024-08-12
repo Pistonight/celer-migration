@@ -1,0 +1,195 @@
+_project: 
+  name: Master Sword Restricted
+  authors:
+    - iTNTPiston
+  version: "3.0"
+  description: Get Master Sword without glitches that allow you to get it early
+  url: ""
+
+CheckPepper:
+  At least .v(Pepper) half-heart food left
+
+_config:
+  split-format:
+    Shrine: "[{{%02 Shrine}}] {{_}}"
+
+
+_route:
+  - (==) This is a newer version of the route inspired by .code(@MikeysGone). If you are looking for the Mogg Latan route. Go .link([here]https://celer.itntpiston.app/#/gh/iTNTPiston/msr/mogg-latan)
+  - Dueling Peaks + Faron + Lake:
+    - SOR Clip, No Tod
+    - _Equipment::Shield<Pot Lid>:
+        coord: [-952,1945.2012493949233]
+        line-color: red
+    - _Equipment::Weapon<Boko Spear>:
+        notes: Can also grab torch. The time save by grabbing torch is canceled out if you threw the torch away during FDC
+    - 6 Peppers + Steak:
+        var-change: 
+          Pepper: 6
+    - Surf down
+    - ToT clip
+    - _Chest<Traveller Bow>:
+        coord: [-827,1965.2091725994478]
+    - 5 Arrows from pot
+    - BLSS to bombs
+    - _Shrine::JaBaij
+    - BLSS
+    - _Tower::GreatPlateau
+    - WB + lagstop FDC
+    - _Shrine::OmanAu
+    - BLSS to tree + WB
+    - _Equipment::Weapon<Hammer>:
+        hide-icon-on-map: true
+        comment: Inside stasis
+    - _Shrine::OwaDaim
+    - 3 Hammer Hits on Boulder
+    - BLSS
+    - _Shrine::KehNamut
+    - BLSS
+    - Plateau:
+        split-type: UserDefined
+        icon: king
+        coord: [-812,1965.07]
+    - BLSS from below
+    - _Shrine::BoshKala
+    - BLSS or .dir(N>) Turn super:
+        notes: BLSS is about the same as missing the super. 1 pepper backup if missed super
+        var-change:
+          Pepper: -1
+    - __use__ CheckPepper
+    - _Shrine::WahgoKatta:
+        notes: Left peg aim at middle white pillar
+    - .dir(<E) Turn
+    - _Shrine::HilaRao:
+        notes: "Safe strat: turn wb up and run. Unsafe strat: 1 wb to monk"
+    - .dir(N.) Turn to fairy:
+        coord: [996,496.41200663527525]
+    - .dir(<N) Turn to shrine:
+        notes: Grab 1 small radish closest to shrine if need extra food
+    - _Shrine::KayaWan:
+        notes: Eat 2 peppers if you are doing the wb + blss strat. 1 pepper is unsafe
+        var-change:
+          Pepper: -2
+    - __use__ CheckPepper
+    - BLSS
+    - _Shrine::ShehRata:
+        notes: 1 WB to monk
+    - Elevator BLSS
+    - _Shrine::DakaTuss:
+        notes: Eat steak inside
+    - .dir(S) + .dir(S>>) + .dir(S) midair:
+        notes: Eat 1 pepper. Can grab 3 apples before statue loads since it takes a while
+        var-change:
+          Pepper: -1
+    - __use__ CheckPepper
+    - _Npc<2 Hearts from statue>:
+        coord: [1835,1001.05665091235]
+    - .dir(N)
+    - _Shrine::TalohNaeg:
+        notes: If you are swapping Toto Sah and Ha Dahamar with a blss, need to save shield here for BLSS. Otherwise you can break your pot lid in this shrine
+    - .dir(S) super + .dir(S) Delay Turn:
+        notes: If you are doing Toto Sah first, WB up to tree stump and BLSS
+    - _Shrine::HaDahamar
+    - .dir(<S) super or turn + midair turn
+    - .!!(Drop pot lid if not broken)
+    - _Equipment::Shield<Shield of Mind's Eye>:
+        comment: Inside shrine
+        hide-icon-on-map: true
+        notes: Turn first apparatus block upside down, Then wb to monk from the apparatus block
+    - _Shrine::TotoSah
+    - Cryo block + .dir(<N) TS + midair
+    - _Shrine::ReeDahee
+    - SCW
+    - _Shrine::SheeVaneer
+    - Run
+    - _Shrine::SheeVenath
+    - Elevator BLSS
+    - _Shrine::QukahNata:
+        notes: Usually unloaded, but if you want to learn the clip go watch .link([this video]https://youtu.be/avrVPjqfJDQ)
+    - Clip out + .dir(NW) wb
+    - _Shrine::ShodaSah:
+        notes: 5 ice arrows
+    - Elevator BLSS or from pillar
+    - _Shrine::ShaiUtoh:
+        notes: left peg aim right
+    - .dir(E) wb + BLSS:
+        notes: Herb here if need
+    - _Shrine::KaoMakagh:
+        notes: right peg strat
+    - .dir(N>) Turn:
+        notes: Raddish before shrine if skipping soh kofi (default)
+    - _Shrine::PumaagNitae
+    - _Shrine::YaNaga
+  - Akkala:
+    - _Warp::Shrine::ShehRata:
+        line-color: yellow
+    - .dir(N>) Turn + .dir(<E) Turn + .dir(E) + .dir(NE):
+        movements:
+          - to: [1656,-609.7963736437196]
+          - to: [1912,-717.8391589481516]
+          - to: [2144,-733.8454975117711]
+        notes: You can choose between soh kofi or katah chuki (this route). For soh kofi, follow the movements in the old route
+    - _Shrine::TahMuhl:
+        notes: Run to end
+    - .dir(E.) + .dir(NE):
+        coord: [2536,-948.450830337446]
+    - _Shrine::MoaKeet:
+        notes: 1 wb to monk
+    - .dir(N) Turn
+    - _Shrine::SahDahaj:
+        notes: left peg cardinal right
+    - .dir(N) + .dir(N) + .dir(<N)
+    - _Shrine::ZeKasho:
+        notes: If not going for the square first where you can pull glider, eat hearty raddish
+    - Elevator BLSS
+    - _Shrine::KatosaAug:
+        notes: Square first
+    - Elevator BLSS + .dir(N>)
+    - _Shrine::ZunaKai
+  - Ridgeland:
+    - _Warp::Shrine::KehNamut:
+        line-color: "#00ff00"
+    - .dir(SW) super
+    - _Shrine::JeeNoh:
+        notes: 1 wb to monk
+    - .dir(N>) Turn + midair
+    - _Shrine::DahKaso
+    - Cryo block + .dir(N>) + .dir(N) midairs:
+        notes: stam is tight. Can go for a ground wb chain if want
+    - _Shrine::RotaOoh:
+        notes: right peg aim left, slightly right of cardinal
+    - .dir(NE) super or midair:
+        notes: Can also elevator BLSS, but need to steer out of the rocks first
+    - _Shrine::KaamYatak:
+        notes: Turn from peg
+    - .dir(N>) (super) to tower:
+        coord: [-784,450.6085021074841]
+    - BLSS from ledge
+    - _Shrine::KatahChuki
+    - .dir(E.) Turn + .dir(E>) Low
+    - _Shrine::ZaltaWa
+    - .dir(W) non height + .dir(N) + .dir(.N) Turn + .dir(N.) Turn:
+        movements:
+        - to: [-1553,-603.9764284665398]
+        - to: [-1535.5,-733.0275331357225]
+        notes: Use fairy here if still have
+    - _Shrine::MonyaToma
+    - .dir(W) Turn
+    - _Shrine::MaagNorah
+    - .dir(N>) to marita and moblin BTB
+    - _Shrine::RinOyaa:
+        notes: right peg square first
+    - BLSS
+    - _Shrine::ShaGehma
+    - BLSS + .dir(E) delay glider pull
+    - _Shrine::QazaTokki
+    - WB up and slide
+    - _Shrine::KeoRuug:
+        notes: Square forward
+    - Run to statue:
+        notes: ONLY MASH A FOR STATUE
+    - Surf to master sword
+    - Master Sword:
+        split-type: UserDefined
+        icon: tots
+        coord: [431.66, 250.53, -2111.00]

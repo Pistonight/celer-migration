@@ -1,0 +1,31 @@
+Akkala:
+- _Warp::Shrine::DaqaKoh:
+    line-color: red
+- .dir(<S) Turn:
+    coord: [2358,-2074.761419954809]
+- _Shrine::RinuHonika
+- Shield Surf SCW
+- .dir(E)
+- _Shrine::KayraMah
+- Clip out:
+   coord: [1993,-2052.397348706906]
+- .dir(S>) Turn
+- _Shrine::QuaRaym
+- .dir(SE) super
+- _Shrine::TahMuhl
+- .dir(E>) + .dir(N>)
+- _Shrine::MoaKeet
+- .dir(.N) Turn
+- _Shrine::SahDahaj
+- .dir(N) + .dir(N) + .dir(<N)
+- _Shrine::ZeKasho
+- .dir(.E) TS + .dir(SE)
+- _Shrine::DahHesho
+- .dir(<<E) TS:
+    coord: [4668,-1787.1221089386818]
+- BLSS orb
+- _Shrine::RitaagZumo
+- .dir(N) + .dir(<N) midairs
+- _Shrine::KatosaAug
+- .dir(.E) Turn
+- _Shrine::TutsuwaNima

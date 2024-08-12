@@ -1,0 +1,26 @@
+Bloodmoon:
+- _Warp::Shrine::KuhTakkar:
+    line-color: "#00ff00"
+
+- Shield Surf SCW
+- .dir(.N) Turn + .dir(N>>) Turn:
+    coord: [-3196,1032.7717201206897]
+    notes: Activate with kass diary
+- _Shrine::MijahRokee
+- .dir(<N) Turn
+- _Shrine::ShaeLoya
+- .dir(<<E) TS
+- Get Orbs:
+    var-change:
+      Weapons: -1
+- _Shrine::TohYahsa
+- Shield Surf SCW
+- .dir(N) + .dir(<N) midair
+- Frozen porgy activate:
+    notes: .v(IceArrow) ice arrows left
+    var-change:
+      IceArrow: -1
+- _Shrine::ShiraGomar
+- Burn grass midair .dir(W>):
+    notes: Swing flameblade and pause for 2 seconds
+- _Shrine::DunbaTaag

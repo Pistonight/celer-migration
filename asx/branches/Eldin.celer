@@ -1,0 +1,41 @@
+Eldin:
+- _Warp::Shrine::SatoKoda:
+    line-color: "#00ff00"
+- +Shield Surf SCW
+- +.dir(N>) super + .dir(N) to tower:
+    coord: [3308,-1520.5419471894793]
+- +BLSS to shrine:
+    var-change:
+      Wood: -1
+    notes: Campfire activate
+- _Shrine::SharoLun
+- .dir(<E) TS + .dir(<N) midair:
+    coord: [2134,-2172.8002436569786]
+    notes: Stand close to lava so the bomb can't be blown away too much (it's up hill). Enter BT as soon as possible
+- _Shrine::DaqaKoh
+- +.dir(W>) TS
+- _Chest<Stone Smasher>:
+    comment: Inside shrine
+    hide-icon-on-map: true
+    notes: .v(Weapons)/8 weapons
+    var-change:
+      Weapons: 1
+- _Shrine::ShaeMosah
+
+- .dir(<E) Turn
+- _Shrine::ShoraHah
+- +BLSS to talus:
+    notes: Can get there without fairy, but need fairy to be safe
+- +Spin with Stone Smasher
+- _Shrine::KamiaOmuna
+- Shield Surf SCW:
+    notes: Optional. Do the clip if you feel more comfortable
+- .dir(<E) Turn
+- _Cook<1 Speed>:
+    notes: Cook to activate cutscene
+- _Shrine::GoraeTorr
+- .dir(E) Turn
+- _Shrine::ZunaKai
+- BLSS
+- _Shrine::TuKaloh
+- _Snap::Quest<Stalker>

@@ -1,0 +1,30 @@
+_project: 
+  name: ASX Aristos v3
+  authors:
+    - iTNTPiston
+  version: 3.1.0
+  description: All Shrines Extended
+  url: "https://github.com/iTNTPiston/asx"
+  
+_config:
+  split-format:
+    Shrine: "[{{%03 Shrine}}] {{_}}"
+    Warp: "Warp {{_}}"
+
+_route:
+  - Plateau: __use__ Plateau
+  - Hateno: __use__ Hateno
+  - Korok Forest:   
+    - __use__ Plateau2
+    - __use__ KorokForest
+  - Highland:
+    - __use__ Hebra
+    - __use__ Gerudo
+  - Eldin:
+    - __use__ ZD
+    - __use__ Eldin
+  - Akkala:
+    - __use__ Bloodmoon
+    - __use__ Akkala
+  - Wasteland: __use__ Wasteland
+  - Central: __use__ Central

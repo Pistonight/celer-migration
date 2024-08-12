@@ -1,0 +1,47 @@
+Plateau:
+- SOR Clip get TOD
+- _Equipment::Weapon<Torch>:
+    coord: [-951.5054733597826,1875]
+    var-change:
+      Weapons: 1
+    notes: Near old man. Grab it while jumping and land outside of the cutscene
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- Grab food, surf down:
+    notes: 1 shroom near SOR (can grab 3 if need), 2 on the way to torch, 4 shroom + 6 pepper at camp (can grab steak if need)
+- _Chest<Traveller's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- 5 Arrows:
+    var-change:
+      Arrow: 5
+- BLSS to bombs
+- _Shrine::JaBaij
+
+- BLSS to tower
+- _Tower::GreatPlateau
+
+- WB over barrier to mag:
+    notes: Aim down so the torch doesn't go into the river if you let go of it
+- _Chest<Ruby>:
+    coord: [-674.25,1522.013469447692]
+    var-change:
+      Rupee: 210
+- _Shrine::OmanAu
+
+- BLSS + WB to stasis:
+    notes: 2 apples if need
+- _Shrine::OwaDaim:
+    comment: Hammer inside
+    var-change:
+      Weapons: 1
+
+- Boulder + BLSS to cryo
+- _Shrine::KehNamut
+
+- BLSS to ToT
+- Plateau:
+    split-type: UserDefined
+    icon: king
+    coord: [-812, 1966.1012189378007]
+- __use__ CheckWoodAndArrows
+- __use__ CheckSlots

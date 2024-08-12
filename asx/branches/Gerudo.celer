@@ -1,0 +1,71 @@
+Gerudo:
+- _Warp::Shrine::TenaKosah:
+    line-color: red
+- Moblin BTB:
+    var-change:
+      Arrow: -1
+      IceArrow: -2
+    notes: .v(Arrow) arrows left. .v(IceArrow) ice arrows left
+- _Shrine::KeehaYoog:
+    comment: 1 Shock Arrow activate
+- .dir(<N) Turn + .dir(W>) Turn + .dir(S>) Turn:
+    movements:
+    - to: [-3928,532.6861495118246]
+    - to: [-4320,416.64019492558236]
+- _Shrine::KemaKosassa
+- 2 .dir(S) Cardinal Turn
+- BLSS
+- _Shrine::KuhTakkar:
+    var-change:
+      FireArrow: -7
+- __use__ CheckWoodAndArrows
+- +Pepper SCW
+- +.dir(<E) Turn
+- +Campfire Activate:
+    var-change: 
+      Wood: -1
+    notes: .v(Wood) wood left
+- _Shrine::KihiroMoh
+- +Run to other side of hole to wb
+- +.dir(E) + .dir(W) + midairs
+- _Shrine::ShoDantu
+- Shield Surf SCW
+- .dir(S) LOOK UP
+- Campfire Activate:
+    var-change: 
+      Wood: -1
+    notes: .v(Wood) wood left
+- _Shrine::SasaKai
+- .dir(E>) DT
+- _Shrine::KayNoh
+- .dir(<W) Turn + .dir(<N) Turn
+- _Shrine::DakoTah:
+    notes: Technically you have enough durability on shield of minds eye before the radiant shield in Raqa Zunzo, but getting early radiant shield in this shrine is good
+- .dir(S>>) + .dir(SW)
+- _Shrine::DaqoChisay
+- +.dir(W.) to sand seal
+- Ring Chase:
+    movements:
+    - to: [-4051.50, 149.57, 2742.00]
+    - to: [-4201.40, 154.24, 2713.20]
+    - to: [-4290.06, 159.24, 2679.14]
+    - to: [-4402.44, 152.77, 2628.23]
+    - to: [-4491.50, 162.95, 2589.50]
+    - to: [-4560.00, 172.29, 2513.50]
+    - to: [-4586.50, 150.65, 2423.50]
+    - to: [-4595.00, 144.47, 2336.70]
+    - to: [-4682.00, 152.24, 2295.00]
+    - to: [-4756.10, 171.27, 2252.70]
+    - to: [-4855.12, 147.28, 2169.28]
+- _Shrine::TakamaShiri
+- _Shrine::KemaZoos
+- .dir(S>) out + .dir(S.) Turn
+- _Shrine::ThoKayu:
+    notes: No need fire arrow from now on
+    var-change:
+      FireArrow: -3
+- BLSS
+- _Shrine::HawaKoth:
+    notes: snap guardian here if you haven't
+
+

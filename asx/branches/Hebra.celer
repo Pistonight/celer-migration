@@ -1,0 +1,118 @@
+Hebra:
+
+- _Warp::Shrine::TenaKosah:
+    line-color: "#00ff00"
+- BLSS to rito
+- _Tod::Noon:
+    coord: [-3646,-1760.5259484948178]
+    notes: Before entering shrine
+- _Shrine::AkhVaquot
+- +6 Hearts:
+    coord: [-3595,-1809.2533673619228]
+- +.dir(S)
+- _Shrine::BareedaNaag:
+    var-change:
+      FireArrow: -1
+    notes: .v(FireArrow) Fire Arrows Left
+- Shield Surf SCW
+- _Shrine::VooLota:
+    notes: Rushroom activate. Keep rushroom for speed food. Can get 3 peppers for backup
+
+- .dir(N>) TS
+- _Shrine::ShaWarvo
+- Shield Surf SCW
+- _Shrine::NoeRajee
+- Updraft up:
+    coord: [-3794,-2318.8460688548603]
+# - 10 Arrows:
+#     var-change:
+#       Arrow: 10
+- .dir(<N):
+    coord: [-3984,-2549.3553557229257]
+- _Shrine::MakaRah
+
+- +Run out:
+    coord: [-3984,-2549.3553557229257]
+- +.dir(E) HIGH:
+    coord: [-3859,-2534.3494133195322]
+- +.dir(N.) + .dir(E) midair:
+    movements:
+    - to: [-3807,-2720.4230991216104]
+    - to: [-3655,-2710.419137519348]
+- +.dir(N) + .dir(N) midair:
+    coord: [-3575,-3031.5463049519667]
+- _Shrine::MozoShenno
+
+- +.dir(E) HIGH:
+    coord: [-3437,-3053.5550204769434]
+- +.dir(N) + .dir(E) midairs:
+    coord: [-3408,-3217.619990754045]
+- _Shrine::ShadaNaw
+
+- BLSS
+- _Shrine::HiaMiu
+- .dir(E)
+- Clip into mountain
+- _Shrine::ToQuomo:
+    notes: Get claymore. .v(Weapons)/8 Weapons
+    var-change:
+      Weapons: 1
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: red
+- BLSS
+- _Shrine::LannoKooh
+- .dir(NE):
+    notes: Cryo block out or you will have to eat. Let snowball roll down. Use hammer to hit snowball against door (stasis MAX)
+- _Shrine::GeeHarah
+
+- .dir(N) + .dir(<<E) Turn + .dir(E>) Turn:
+    coord: [-2388,-2440.6529636418254]
+- _Shrine::RinOyaa
+
+- BLSS to shrine
+- _Shrine::MonyaToma
+- .dir(W) Turn
+- _Shrine::MaagNorah
+
+- BLSS + BLSS:
+    coord: [-1434,-2250.5776931988426]
+- _Shrine::RonaKachta
+
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+
+- _Warp::Shrine::ShadaNaw:
+    line-color: yellow
+- _Shrine::GomaAsaagh:
+    notes: No claymore
+    var-change:
+      FireArrow: -1
+- Ring Chase:
+    movements:
+    - to: [-2792.10, 665.50, -2810.60]
+    - to: [-2747.40, 636.86, -2727.30]
+    - to: [-2575.10, 578.92, -2648.00]
+    - to: [-2478.80, 557.90, -2650.40]
+    - to: [-2401.80, 542.60, -2671.80]
+    - to: [-2380.60, 525.25, -2727.60]
+    - to: [-2399.80, 514.90, -2800.50]
+    - to: [-2424.80, 498.50, -2891.60]
+    - to: [-2429.21, 489.01, -2961.43]
+    - to: [-2379.90, 473.60, -3090.80]
+    - to: [-2300.00, 456.55, -3116.60]
+    - to: [-2239.00, 447.70, -3118.10]
+    - to: [-2195.09, 443.89, -3156.53]
+- _Shrine::KiahToza
+- Surf + .dir(W>>) Ordinal Turn:
+    coord: [-2245,-3151.7979582846247]
+- _Shrine::RokUwog
+- .dir(N) + .dir(<E) Turn Midairs:
+    coord: [-2386,-3399.7266494439036]
+- _Shrine::ShaGehma
+- .dir(E>) Turn + .dir(E) midairs
+- _Shrine::QazaTokki
+- .dir(S) up + BLSS
+- _Shrine::KetohWawai
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows

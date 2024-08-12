@@ -1,0 +1,53 @@
+Wasteland:
+- _Warp::Shrine::TakamaShiri:
+    line-color: "#00ff00"
+
+- +Shield Surf SCW + peppupdraft
+- +.dir(SE) midairs
+- +Hydromelon Activate:
+    notes: If already gotten hydro melon from crates, use campfire. If no campfire, touch the orb (The npcs are out of range but the orb is not)
+- _Shrine::RaqaZunzo:
+    comment: Radiant Shield
+- Cut Tree BLSS
+
+- Clip
+- _Shrine::MisaeSuma
+- _Tod::Noon:
+    text: .!!(MAKE NOON)
+    notes: Can make before entering Keive Tala if you are slow
+    var-change:
+      Wood: -1
+- .dir(E.) Turn
+- Kill Molduking:
+    notes: Use FDB, Throw bomb, 2 Shock on ground, DEFUSE, 5 Shock BT, Endura, 6 Shock BT, Whistle-sprint to the belly for double hits, 8 Hits, Swap weapon back and forth to recharge blade, spin to death 
+- _Shrine::KeiveTala:
+    comment: Shock trap
+    var-change:
+      Weapons: -1
+- Shield Surf SCW
+- .dir(<N) Turn + .dir(N)
+- Campfire Activate:
+    notes: .v(Wood) wood left
+    var-change:
+      Wood: -1
+- _Shrine::KorshOhu
+
+- .dir(S) + .dir(E>) midairs
+- _Shrine::DilaMaag
+- +WB up
+- +.dir(E) + .dir(E) up
+- +.dir(S) + .dir(S) up
+- +.dir(N>) + midairs
+- _Shrine::SumaSahma
+- .dir(E>) Turn
+- _Shrine::IshtoSoh
+- BLSS
+- _Shrine::ShoqaTatone
+- .dir(E) + .dir(N)
+- _Shrine::KaoMakagh
+- .dir(N.) Turn
+- _Shrine::PumaagNitae
+- .dir(N>) Super
+- _Shrine::ShaeKatha
+- .dir(W) up + .dir(<W) TS
+- _Shrine::YaNaga

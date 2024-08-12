@@ -1,0 +1,57 @@
+Central:
+- _Warp::Shrine::KuhTakkar:
+    line-color: cyan
+- Shield Surf SCW
+- WB + BLSS:
+    movements:
+    - to: [-3196,1032.7717201206897]
+    - to: [-3112,888.7146730481127]
+- Campfire Activate:
+    var-change:
+      Wood: -1
+- _Shrine::JolooNah
+- .dir(.S) Turn
+- _Shrine::JeeNoh
+- .dir(N>) TS
+- _Shrine::DahKaso
+- Cryo + .dir(N>) + .dir(N) midairs
+- _Shrine::RotaOoh
+- .dir(NE) super
+- _Shrine::KaamYatak
+- .dir(<N) + .dir(NW) + .dir(W)
+- _Shrine::SheemDagoze
+- .dir(N>) TS
+- _Shrine::ZaltaWa
+- .dir(E) + .dir(E) Turn
+- _Shrine::NoyaNeha
+- Updraft + .dir(SE)
+- _Shrine::KatahChuki
+
+- +.dir(N) midairs
+- _Equipment::Bow<Royal Guard Bow>:
+    coord: [-333,-995.5355553803038]
+- _Equipment::Weapon<EOD>
+- WB to scantum
+- __use__ CheckWoodAndArrows
+- Blights:
+    split-type: UserDefined
+    icon: calamity
+    coord: [-253.75,-1066.3135837163095]
+    hide-icon-on-map: true
+    notes: >
+      Skip Windblight; 
+      EOD on water + wake up shot; 
+      EOD for phase 1 Fire (should have 1 hit left); Boomerang + Claymore for phase 2
+      Claymore for phase 1 Thunder + EOD throw in the end; Boomerang + Claymore for phase 2
+- Calamity:
+    split-type: UserDefined
+    icon: calamity
+    coord: [-253.75,-1066.3135837163095]
+    hide-icon-on-map: true
+    notes: Parry + spin with claymore phase 1. Get claymore for stunlock
+- Dark Beast:
+    split-type: UserDefined
+    icon: ganon
+    coord: [-253.75,-1066.3135837163095]
+    hide-icon-on-map: true
+

@@ -1,0 +1,171 @@
+Hateno:
+- +BLSS to Kak
+- +_Npc::SheikaFemale<Impa>:
+    line-color: red
+    coord: [1772.71, 229.43, 984.31]
+- +_Shop<10 Fire 10 Normal Arrows>:
+    coord: [1820.5,1040.244354716776]
+    var-change:
+      Rupee: -200
+      Arrow: 10
+      FireArrow: 10
+- +_Tod::Night:
+    coord: [1824.75,1006.5110924863347]
+    comment: For SCW + Kam Urog
+    notes: Can get 4 apples from korok
+
+- +_Npc<1 Heart>:
+    coord: [1841,997.9514703722871]
+- +.dir(N) to shrine
+- _Shrine::TalohNaeg:
+    comment: Get Shield inside
+
+- SCW to Lakna Rokee:
+    notes: wb from tree. Shield surf, EOD inside shrine.
+- _Shrine::LaknaRokee:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 Weapons
+
+- +Cut tree wb:
+    notes: 1 Wood
+    var-change:
+      Wood: 1
+- .dir(E) + .dir(E>) Turn
+- _Shrine::DowNaeh
+
+- .dir(<N) + .dir(S>):
+    coord: [2642,1187.0932957332761]
+- _Shrine::KamUrog:
+    notes: No need to eat if you land on top. Need to eat if you fall down to the stairs
+    var-change:
+      Arrow: -1
+
+- .dir(S) + BLSS
+- _Shrine::TotoSah
+- +.dir(<N) Turn + .dir(<N) Turn
+- +_Material<4 Violets>:
+    coord: [1634,1907.2630503902146]
+- _Shrine::HaDahamar
+- +.dir(<<W) + .dir(NW)
+- _Shrine::ReeDahee
+
+- Shield Surf SCW
+- _Shrine::SheeVaneer
+- _Equipment::Weapon<2 Boko Arm>:
+    coord: [1277,1943.2773121583587]
+    var-change:
+      Weapons: 2
+    notes: Boko arms for plat SCWs. Also get the shield. Get traveller bow if you are not doing kah yah scw
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
+- _Shrine::SheeVenath
+- BLSS to dragon:
+    coord: [1744,2982.6869418322767]
+    notes: 1 scale (first shot) + 5 horns. If after 5AM, farm for 5AM and make noon after last shot. If you are fast and it's before 5AM, make night twice for the first spawn and keep making night. (Morning makes plat 2 guaranteed night. Noon = guaranteed day. Night = almost night if fast)
+    var-change:
+      Arrow: -6
+      FireArrow: -1
+      Wood: -1
+- Drop down (WB if far)
+- _Shrine::ShodaSah:
+    comment: 5 Ice Arrows
+    var-change:
+      IceArrow: 5
+- __use__ CheckWoodAndArrows
+
+- BLSS to stable:
+    notes: Turn + wb saves 3-4 seconds over BLSS. I like BLSS because I tend to get stopped by waterfall
+- _Cook<1 Speed>:
+    coord: [1574,3527.943105213035]
+- _Shrine::ShaiUtoh
+
+
+- .dir(E) super + .dir(N>) + .dir(N>) midair
+- _Shrine::QukahNata:
+    comment: Get Pants
+    var-change:
+      Rupee: 600
+    notes: .v(Rupee) rupee/items
+
+- +.dir(<E) TS to blue hinox:
+    coord: [2691,2964.6817917493354]
+- Walk orb:
+    coord: [2636,2844.634252522189]
+- .dir(.E):
+    coord: [2369.37, 321.05, 2862.74]
+- EOD slam kill boko
+- _Material<12 Lotus>:
+    coord: [2367.5,2808.0784397247926]
+- cut tree wb:
+    notes: 1 wood
+    var-change:
+      Wood: 1
+- Walk orb:
+    notes: If you missed the boko arms at dueling peaks, try to get them here
+    coord: [2616,2824.5849763685255]
+- _Equipment::Weapon<Boko Bat>:
+    var-change: 
+      Weapons: 1
+    comment: .v(Weapons)/8 weapons
+    coord: [2767,2714.5413987436405]
+- Walk orb
+- _Shrine::TawaJinn:
+    var-change:
+      Weapons: 1
+    comment: .v(Weapons)/8 weapons
+    notes: Get thunderblade
+    
+- BLSS to hateno
+- _Shrine::MyahmAgana
+- +.dir(.N) Turn LOOK UP
+- Smuggle blue flame:
+    coord: [3440.5,1976.8258875805732]
+    notes: Use torch or boko bat
+- Camera:
+    icon: snap
+    split-type: UserDefined
+    coord: [3779,2124.8845192940553]
+    var-change:
+      Weapons: -1
+    comment: Throw away torch if you got
+    notes: .v(Weapons)/8 Weapons 
+- BLSS to Muwo Jeem
+- _Shrine::MuwoJeem
+
+- Buffered scw:
+    notes: If not doing this buffered scw, use the same order as old route. Smuggle bow + arrow for eventide.
+- _Shrine::KahYah
+- .dir(S>>) + .dir(<E) Turn:
+    coord: [3318,3527.043577624885]
+- _Chest<5 Fire Arrows>:
+    coord: [2967.01, 101.38, 3501.98]
+    comment: Mag out from water
+    var-change:
+      FireArrow: 5
+- _Shop<All Arrows 3 Porgies>:
+    coord: [2954,3492.029712016967]
+    var-change:
+      Rupee: -600
+      Arrow: 15
+    comment: .v(Rupee) Rupees left
+    notes: Sell Pants
+- Run to statue:
+    notes: 4 Stam at statue
+    coord: [2923,3448.012280967014]
+- .dir(<N)
+- _Shrine::YahRin
+
+- BLSS to Eventide orb 1
+- _Shrine::KorguChideh:
+    var-change:
+      Weapons: -1
+      Arrow: -1
+    notes: Smuggle arrow only
+
+- +.dir(NE)
+- _Shrine::ChaasQeta:
+    notes: Clear ragdoll outside before warp
+
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows

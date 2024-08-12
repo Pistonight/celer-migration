@@ -1,0 +1,58 @@
+Plateau2:
+- _Warp::Shrine::KehNamut:
+    line-color: yellow
+- Buffered SCW:
+    notes: Boko Arm + Pepper
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+- _Shrine::EtsuKorima:
+    notes: snap guardian
+
+- BLSS to Satori
+- Cut tree wb:
+    var-change:
+      Wood: 1
+    notes: 1 wood
+- WB to durians:
+    coord: [-2191,451.06893187936294]
+    notes: Get all durians and wood
+    var-change:
+      Wood: 5
+- WB to 4 Endura Carrot:
+    coord: [-2304,532.1010208576881]
+- _Shrine::MoggLatan
+
+
+- BLSS to TK
+- _Shrine::TenaKosah
+- .dir(W) TS
+- _Shrine::KahOkeo
+
+- _Warp::Shrine::OwaDaim
+- Buffered SCW:
+    coord: [-922,2316.860551600368]
+    notes: Shield Surf + Tree Launch
+- _Shrine::RuvoKorbah
+- +.dir(<E) Turn:
+    var-change:
+      Wood: 1
+    notes: 1 Wood
+    coord: [-448,1989.731007206392]
+- Buffered SCW:
+    notes: Shield surf + WB
+- _Shrine::RohtaChigah
+
+- .dir(<N):
+    notes: Save on top of the elevator so game loads you at mag if you fail the scw
+    coord: [-672,1516.5436234193867]
+- Buffered SCW:
+    notes: Boko Arm + Pepper + 4 campfires.
+    var-change:
+      Weapons: -1
+      FireArrow: -1
+      Wood: -4
+- _Shrine::YowakaIta:
+    notes: Camera clip
+- __use__ CheckSlots
+- __use__ CheckWoodAndArrows
