@@ -241,7 +241,14 @@ the `celer-move.py` script, not the `celer-migrate.py` script.
 python celer-move.py asx/branches asx-new/branches
 ```
 ## 5. Add Presets
-Since new celer is game-independent, we need to add the BOTW presets to `project.yaml`. You can also add other plugins and configs here such as `split-format`.
+Since new celer is game-independent, we need to add the BOTW presets to `project.yaml`. You might need other plugins:
+- `link` for `.link()` tags
+- `botw-ability-unstable` for champion ability tracking
+- `split-format` for custom split formatting
+
+See https://celer.pistonite.org/docs/plugin/getting-started for Celer's first-party plugins, and
+https://github.com/Pistonight/celer-presets/blob/main/botw/README.md for BOTW presets/plugin configuration.
+
 ```yaml
 config:
 - use: Pistonight/celer-presets/botw/most.yaml

@@ -190,8 +190,15 @@ python celer-move.py msr/branches msr-new/branches
 ```
 
 ## 5. Add Presets
-Since new celer is game-independent, we need to add the BOTW presets. I will also add the `split-format` plugin to add shrine numbers to the splits:
-The final `project.yaml` should look like this:
+Since new celer is game-independent, we need to add the BOTW presets. I will also add the `split-format` plugin to add shrine numbers to the splits. You might need other plugins:
+- `link` for `.link()` tags
+- `botw-ability-unstable` for champion ability tracking
+- `split-format` for custom split formatting
+
+See https://celer.pistonite.org/docs/plugin/getting-started for Celer's first-party plugins, and
+https://github.com/Pistonight/celer-presets/blob/main/botw/README.md for BOTW presets/plugin configuration.
+
+The final `project.yaml` should look something like this:
 ```yaml
 title: Master Sword Restricted
 version: v3.0

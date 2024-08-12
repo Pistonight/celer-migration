@@ -1,6 +1,12 @@
 # celer-migration
 A semi-automated tool to help migrate celer route doc from old to new format.
 
+## Dependencies
+Python 3 is needed to run the scripts. Also install `pyyaml` for yaml parsing
+```bash
+pip install pyyaml
+```
+
 ## Command Line Usage
 `PATH` can be a directory or a file. Directories are recursively processed
 ```bash
