@@ -157,6 +157,14 @@ def fix_segment(data):
     key: str = key.replace(".!!(", ".important(")
     if key.startswith("+"):
         key = key[1:]
+    if key == "_Warp::VahMedoh":
+        key = "_Warp::Beast::Medoh"
+    elif key == "_Warp::VahRudania":
+        key = "_Warp::Beast::Rudania"
+    elif key == "_Warp::VahRuta":
+        key = "_Warp::Beast::Ruta"
+    elif key == "_Warp::VahNaboris":
+        key = "_Warp::Beast::Naboris"
     def has_string_property(p):
         return p in new_value and new_value[p] and isinstance(new_value[p], str)
     if has_string_property("comment"):
